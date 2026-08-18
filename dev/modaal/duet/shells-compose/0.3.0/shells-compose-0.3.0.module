@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.modaal.duet",
+    "module": "shells-compose",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.arkivanov.essenty",
+          "module": "instance-keeper",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shells-compose-0.3.0.jar",
+          "url": "shells-compose-0.3.0.jar",
+          "size": 33587,
+          "sha512": "6f069f70e3515872bfc2a05a637f36d107d528d2d8845b9941242033fc089cc2d1090092c08c5f8f971f1c407d0101bd196ab56f15cc26a64e4f896591d11849",
+          "sha256": "543b2905027206ccc4f67e067eb718727294e4dab90e452452c239d863f6e045",
+          "sha1": "a4b6bfbceb3251b184b3263c44a071beac8abe4f",
+          "md5": "809fa9a56515efcb325a9ebb30e487d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.arkivanov.essenty",
+          "module": "instance-keeper",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shells-compose-0.3.0.jar",
+          "url": "shells-compose-0.3.0.jar",
+          "size": 33587,
+          "sha512": "6f069f70e3515872bfc2a05a637f36d107d528d2d8845b9941242033fc089cc2d1090092c08c5f8f971f1c407d0101bd196ab56f15cc26a64e4f896591d11849",
+          "sha256": "543b2905027206ccc4f67e067eb718727294e4dab90e452452c239d863f6e045",
+          "sha1": "a4b6bfbceb3251b184b3263c44a071beac8abe4f",
+          "md5": "809fa9a56515efcb325a9ebb30e487d8"
+        }
+      ]
+    }
+  ]
+}
