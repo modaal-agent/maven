@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../telemetry/0.8.0/telemetry-0.8.0.module",
+    "group": "dev.modaal.duet.services",
+    "module": "telemetry",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "shells-compose",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-jvm-0.8.0.jar",
+          "url": "telemetry-jvm-0.8.0.jar",
+          "size": 47087,
+          "sha512": "50bf3b1665ad8147a936e87a164cfb323bd99cabbdc7cee5919f4009508aaba1ec8a49def8b764dc5f259cf8ae11abb1e1a014f05eb748637e44af07c0be386f",
+          "sha256": "48bc9be3e7fca79473c6bb4af17deecde9a8ad724de60fe525da36e1c59c3d0c",
+          "sha1": "795c0b6a87dc6be2b1b9c20052b44a32213064d8",
+          "md5": "7a91bb84cdb0227547d8f6f92f857a91"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "shells-compose",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-jvm-0.8.0.jar",
+          "url": "telemetry-jvm-0.8.0.jar",
+          "size": 47087,
+          "sha512": "50bf3b1665ad8147a936e87a164cfb323bd99cabbdc7cee5919f4009508aaba1ec8a49def8b764dc5f259cf8ae11abb1e1a014f05eb748637e44af07c0be386f",
+          "sha256": "48bc9be3e7fca79473c6bb4af17deecde9a8ad724de60fe525da36e1c59c3d0c",
+          "sha1": "795c0b6a87dc6be2b1b9c20052b44a32213064d8",
+          "md5": "7a91bb84cdb0227547d8f6f92f857a91"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "telemetry-jvm-0.8.0-sources.jar",
+          "url": "telemetry-jvm-0.8.0-sources.jar",
+          "size": 8117,
+          "sha512": "5548322423efd0fd1805a3dcb1aa213cd75fa8cbf3074dfb569181a832dfce6e5e0d4484cc69b9f770fae061a20597376d1dcbe079c933382ecfc59bdf9c9346",
+          "sha256": "afc9fa192f9288a9cba35b02e9bd085ed2e09bf32c771a3581d6543cec312efb",
+          "sha1": "d3796ecc4e2cbcae3cea7ac9d9989e2ce26843bc",
+          "md5": "bbc84c9e3bd2e51f942e5fe4d925beda"
+        }
+      ]
+    }
+  ]
+}
