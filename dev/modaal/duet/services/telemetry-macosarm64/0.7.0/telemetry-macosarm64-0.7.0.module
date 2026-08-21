@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../telemetry/0.7.0/telemetry-0.7.0.module",
+    "group": "dev.modaal.duet.services",
+    "module": "telemetry",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-macosArm64Main-0.7.0.klib",
+          "url": "telemetry-macosarm64-0.7.0.klib",
+          "size": 30694,
+          "sha512": "6edd4298dc9924687487a198a5a9be758036b3c89bdafafbe2cf6e6c83836e63e298e2589b06fe544ae56eaea129c0c33996a129fbbca2798ebe42dd328ae971",
+          "sha256": "1bab2ca4db3ef6786194fc6e08e6675a57fa36c7d572495073a72dc2a8f4b1c3",
+          "sha1": "b82503e9df44e93dd6f0dafad91b043006ba1409",
+          "md5": "f148d25d9b31ac8b53dafe380e6ae6be"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "telemetry-macosarm64-0.7.0-sources.jar",
+          "url": "telemetry-macosarm64-0.7.0-sources.jar",
+          "size": 5856,
+          "sha512": "527e74f830c71180628003eefbb0dae5483f363c587ebbd3ebbe6e3ae615c20fff99ca1392f06e5d8537b3b4ca5e50971be025de20fd2ef3c250bc253d7bfaa8",
+          "sha256": "f87f8f79f2321e0c7b01f283530ece158bbd8103b89cdc3d4bce437ff0c109e9",
+          "sha1": "ddc7ccb92e4ddbe1e1dec3649940f28584af18e6",
+          "md5": "e70d4f555b7f6ff64efb21eba8929990"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-macosarm64-0.7.0-metadata.jar",
+          "url": "telemetry-macosarm64-0.7.0-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
