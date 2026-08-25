@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.modaal",
+    "module": "mocks-processor",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mocks-processor-0.2.1.jar",
+          "url": "mocks-processor-0.2.1.jar",
+          "size": 30498,
+          "sha512": "837d77718305d7c2ceb97fe4f6b8b29ee1c22abadf40f316c1d3cd1d2bc327fdaf0c1115c11fe4ad6235c90c4cbd3171006e53deb23ac2667f81230b19f5220a",
+          "sha256": "9de82795b6c9657623a89d676ddc209e84db2136072d19956e7f4387dca2af59",
+          "sha1": "6f42b4d7364a2f712753746e6be3f806e3b3bfff",
+          "md5": "35b01836768ca8f3eef494785d35b841"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.3.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mocks-processor-0.2.1.jar",
+          "url": "mocks-processor-0.2.1.jar",
+          "size": 30498,
+          "sha512": "837d77718305d7c2ceb97fe4f6b8b29ee1c22abadf40f316c1d3cd1d2bc327fdaf0c1115c11fe4ad6235c90c4cbd3171006e53deb23ac2667f81230b19f5220a",
+          "sha256": "9de82795b6c9657623a89d676ddc209e84db2136072d19956e7f4387dca2af59",
+          "sha1": "6f42b4d7364a2f712753746e6be3f806e3b3bfff",
+          "md5": "35b01836768ca8f3eef494785d35b841"
+        }
+      ]
+    }
+  ]
+}
