@@ -1,0 +1,283 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.modaal.duet.services",
+    "module": "telemetry",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-metadata-0.9.0.jar",
+          "url": "telemetry-0.9.0.jar",
+          "size": 4969,
+          "sha512": "3552f291944d8b7280a0861ac7b03dbe2b2559fdc6a598f9ab4363c196d8eba3d87ec28fba9d4e5e73c3b98bd505b32053493ab08135ef077a04f3b967ed5695",
+          "sha256": "2a3077f4801790084f398a019fd95488b7b7a3d611c77675a52af0bfea62955f",
+          "sha1": "4cd7a8b32efcba393740a77a95f2ffdceab80e2e",
+          "md5": "64dba84d70e1cf6947c145b79873a112"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "telemetry-kotlin-0.9.0-sources.jar",
+          "url": "telemetry-0.9.0-sources.jar",
+          "size": 5856,
+          "sha512": "527e74f830c71180628003eefbb0dae5483f363c587ebbd3ebbe6e3ae615c20fff99ca1392f06e5d8537b3b4ca5e50971be025de20fd2ef3c250bc253d7bfaa8",
+          "sha256": "f87f8f79f2321e0c7b01f283530ece158bbd8103b89cdc3d4bce437ff0c109e9",
+          "sha1": "ddc7ccb92e4ddbe1e1dec3649940f28584af18e6",
+          "md5": "e70d4f555b7f6ff64efb21eba8929990"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-iosarm64/0.9.0/telemetry-iosarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-iosarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-iosarm64/0.9.0/telemetry-iosarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-iosarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-iosarm64/0.9.0/telemetry-iosarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-iosarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-iossimulatorarm64/0.9.0/telemetry-iossimulatorarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-iossimulatorarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-iossimulatorarm64/0.9.0/telemetry-iossimulatorarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-iossimulatorarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-iossimulatorarm64/0.9.0/telemetry-iossimulatorarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-iossimulatorarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../telemetry-jvm/0.9.0/telemetry-jvm-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-jvm",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../telemetry-jvm/0.9.0/telemetry-jvm-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-jvm",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../telemetry-jvm/0.9.0/telemetry-jvm-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-jvm",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-macosarm64/0.9.0/telemetry-macosarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-macosarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-macosarm64/0.9.0/telemetry-macosarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-macosarm64",
+        "version": "0.9.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../telemetry-macosarm64/0.9.0/telemetry-macosarm64-0.9.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "telemetry-macosarm64",
+        "version": "0.9.0"
+      }
+    }
+  ]
+}
