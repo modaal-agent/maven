@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.modaal.duet",
+    "module": "kernel-test",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "dev.modaal.duet",
+          "module": "shells-compose",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kernel-test-0.5.0.jar",
+          "url": "kernel-test-0.5.0.jar",
+          "size": 151456,
+          "sha512": "4446e587d6e0ebd8533b22a9fd7d21f716a3953cad793960b01015b9c47948f4886a0a2981a7f2009ce339b0c02945081bbdbed6444d519e4d4af4c7834516ae",
+          "sha256": "d3cfb0fde8a99f6fad2329a2447f1c34b4272720e6819c855dad68a922079e91",
+          "sha1": "3676dcdc8fb6117e2da578270efc2c11fdf58d8c",
+          "md5": "c8dea49a2ac1734f72f3bb8ff148ba45"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test"
+        },
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "dev.modaal.duet",
+          "module": "shells-compose",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kernel-test-0.5.0.jar",
+          "url": "kernel-test-0.5.0.jar",
+          "size": 151456,
+          "sha512": "4446e587d6e0ebd8533b22a9fd7d21f716a3953cad793960b01015b9c47948f4886a0a2981a7f2009ce339b0c02945081bbdbed6444d519e4d4af4c7834516ae",
+          "sha256": "d3cfb0fde8a99f6fad2329a2447f1c34b4272720e6819c855dad68a922079e91",
+          "sha1": "3676dcdc8fb6117e2da578270efc2c11fdf58d8c",
+          "md5": "c8dea49a2ac1734f72f3bb8ff148ba45"
+        }
+      ]
+    }
+  ]
+}

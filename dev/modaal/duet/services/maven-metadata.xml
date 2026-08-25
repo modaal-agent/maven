@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.modaal.duet</groupId>
+  <artifactId>services</artifactId>
+  <versioning>
+    <latest>theming-iossimulatorarm64</latest>
+    <release>theming-iossimulatorarm64</release>
+    <versions>
+      <version>theming-jvm</version>
+      <version>theming</version>
+      <version>telemetry</version>
+      <version>telemetry-jvm</version>
+      <version>telemetry-macosarm64</version>
+      <version>theming-macosarm64</version>
+      <version>theming-iosarm64</version>
+      <version>telemetry-iosarm64</version>
+      <version>telemetry-iossimulatorarm64</version>
+      <version>theming-iossimulatorarm64</version>
+    </versions>
+    <lastUpdated>20260825102316</lastUpdated>
+  </versioning>
+</metadata>
