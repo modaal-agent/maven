@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../theming/0.10.0/theming-0.10.0.module",
+    "group": "dev.modaal.duet.services",
+    "module": "theming",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-iosArm64Main-0.10.0.klib",
+          "url": "theming-iosarm64-0.10.0.klib",
+          "size": 19701,
+          "sha512": "f17454831eac8770eb90cbc95fb1259c91363e0499d95265b93d9351adb4e2d9cddcd76dc3c4256f26501a0368f94bd5228acd777c61c37de04fc708d27ca3f7",
+          "sha256": "a41d6bf4ba416bd9320a8264e818e72083cf44e5d2d5347b0b71a5e3c329efa2",
+          "sha1": "34c9a3efa080db7e5cfb0a5cd8efa3d5713686e3",
+          "md5": "a2508252cd10bf72db79321b0dd4b7ad"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "theming-iosarm64-0.10.0-sources.jar",
+          "url": "theming-iosarm64-0.10.0-sources.jar",
+          "size": 6606,
+          "sha512": "2c1b6272553aaa156455339dc0e902bf094bf96839bd47528e5143d2daea252ccf3528925a48e18ad684a748e861a9f38fbf789c844147d4d02706bb051fc4e8",
+          "sha256": "5d7507a4ee54ad4cbd48be95291518cac6d9ed852ea7f67d04a37558b6cc67d4",
+          "sha1": "d0bf7d1954b538c669658d9809d9152a952ea4c0",
+          "md5": "bf53c7fbc4b2ccbd26c87dc494948da3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-iosarm64-0.10.0-metadata.jar",
+          "url": "theming-iosarm64-0.10.0-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
