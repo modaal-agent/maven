@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../telemetry/0.11.0/telemetry-0.11.0.module",
+    "group": "dev.modaal.duet.services",
+    "module": "telemetry",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-iosSimulatorArm64Main-0.11.0.klib",
+          "url": "telemetry-iossimulatorarm64-0.11.0.klib",
+          "size": 30258,
+          "sha512": "774a3c99367de8107b6af6130af5c8bf2651d181638f83a9aa7aa38034626da981bd579711331ee36079a03c84fe7e7f03e3a2890d5dc6a032d56fc8c319e2a8",
+          "sha256": "9eb9fca40332a201d7de5c9c9b590ecda0c6abce0fb21d056b062e9cc7ffc281",
+          "sha1": "755cc441c1f10e53f397d2d71c14002c22453b8c",
+          "md5": "fd9d24ffdb6d1786b7ab12551567f1b0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "telemetry-iossimulatorarm64-0.11.0-sources.jar",
+          "url": "telemetry-iossimulatorarm64-0.11.0-sources.jar",
+          "size": 5856,
+          "sha512": "527e74f830c71180628003eefbb0dae5483f363c587ebbd3ebbe6e3ae615c20fff99ca1392f06e5d8537b3b4ca5e50971be025de20fd2ef3c250bc253d7bfaa8",
+          "sha256": "f87f8f79f2321e0c7b01f283530ece158bbd8103b89cdc3d4bce437ff0c109e9",
+          "sha1": "ddc7ccb92e4ddbe1e1dec3649940f28584af18e6",
+          "md5": "e70d4f555b7f6ff64efb21eba8929990"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.modaal.duet",
+          "module": "kernel",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "telemetry-iossimulatorarm64-0.11.0-metadata.jar",
+          "url": "telemetry-iossimulatorarm64-0.11.0-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

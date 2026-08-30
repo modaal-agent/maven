@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../theming/0.11.0/theming-0.11.0.module",
+    "group": "dev.modaal.duet.services",
+    "module": "theming",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-jvm-0.11.0.jar",
+          "url": "theming-jvm-0.11.0.jar",
+          "size": 21947,
+          "sha512": "0300b275ca7397d6c3fb80396adb85de9188442a501005b9cbe8401e4de921830622745168ad875510129ff44a1a084b892336a6adef16f10432615cc930e6c9",
+          "sha256": "b05f0eb925d13236d69d1da576088a41b84918e3764afcd0625f8fdc3c52c714",
+          "sha1": "8c19b38d7d35687a5a8ba8fcaf103f7d201b7dd6",
+          "md5": "87f90b381adb6d06f4f610ec0b83c651"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-jvm-0.11.0.jar",
+          "url": "theming-jvm-0.11.0.jar",
+          "size": 21947,
+          "sha512": "0300b275ca7397d6c3fb80396adb85de9188442a501005b9cbe8401e4de921830622745168ad875510129ff44a1a084b892336a6adef16f10432615cc930e6c9",
+          "sha256": "b05f0eb925d13236d69d1da576088a41b84918e3764afcd0625f8fdc3c52c714",
+          "sha1": "8c19b38d7d35687a5a8ba8fcaf103f7d201b7dd6",
+          "md5": "87f90b381adb6d06f4f610ec0b83c651"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "theming-jvm-0.11.0-sources.jar",
+          "url": "theming-jvm-0.11.0-sources.jar",
+          "size": 6606,
+          "sha512": "2c1b6272553aaa156455339dc0e902bf094bf96839bd47528e5143d2daea252ccf3528925a48e18ad684a748e861a9f38fbf789c844147d4d02706bb051fc4e8",
+          "sha256": "5d7507a4ee54ad4cbd48be95291518cac6d9ed852ea7f67d04a37558b6cc67d4",
+          "sha1": "d0bf7d1954b538c669658d9809d9152a952ea4c0",
+          "md5": "bf53c7fbc4b2ccbd26c87dc494948da3"
+        }
+      ]
+    }
+  ]
+}
