@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../theming/0.11.1/theming-0.11.1.module",
+    "group": "dev.modaal.duet.services",
+    "module": "theming",
+    "version": "0.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-iosSimulatorArm64Main-0.11.1.klib",
+          "url": "theming-iossimulatorarm64-0.11.1.klib",
+          "size": 19766,
+          "sha512": "eaeb36f082c12349c295556aaf10b0bd606b8a7fb5fe2a0374f95849e518466d51a3b29cd80ebe5fc4f9b15742d86902a2a2ad4cd7d4297f0b1c2ec6c6d77695",
+          "sha256": "14be04378930aa50840b2fae042f916fab3f16b7baa1336ab638b42e4a58829c",
+          "sha1": "eed557620c22eff84af27e13de781bd8f3c24f0b",
+          "md5": "d71728ae051baafe6e32aa5ece84e4f8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "theming-iossimulatorarm64-0.11.1-sources.jar",
+          "url": "theming-iossimulatorarm64-0.11.1-sources.jar",
+          "size": 6606,
+          "sha512": "2c1b6272553aaa156455339dc0e902bf094bf96839bd47528e5143d2daea252ccf3528925a48e18ad684a748e861a9f38fbf789c844147d4d02706bb051fc4e8",
+          "sha256": "5d7507a4ee54ad4cbd48be95291518cac6d9ed852ea7f67d04a37558b6cc67d4",
+          "sha1": "d0bf7d1954b538c669658d9809d9152a952ea4c0",
+          "md5": "bf53c7fbc4b2ccbd26c87dc494948da3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-iossimulatorarm64-0.11.1-metadata.jar",
+          "url": "theming-iossimulatorarm64-0.11.1-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
