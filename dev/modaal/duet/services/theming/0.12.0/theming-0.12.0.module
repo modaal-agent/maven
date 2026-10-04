@@ -1,0 +1,276 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.modaal.duet.services",
+    "module": "theming",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "theming-metadata-0.12.0.jar",
+          "url": "theming-0.12.0.jar",
+          "size": 5952,
+          "sha512": "5f7cde1bb2741288ad5f3deda466043b01bff2d80a44b6550d33ff5c8a7d14213bafaacf151271f990767d60a97cfb9fbb6f419c57f97421198bd3a892af587b",
+          "sha256": "b0f54052ea7920694c2c641603875acb04f9c04e9d48c305022975e5b4807b6d",
+          "sha1": "014b223dfb8b1b9f9aca777a740682416f7ec9e5",
+          "md5": "e455960d804213e5bc0c27060f0d192c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "theming-kotlin-0.12.0-sources.jar",
+          "url": "theming-0.12.0-sources.jar",
+          "size": 6934,
+          "sha512": "1a48a508c10964d541bdc2ddaf1a950db23a27349d3d0827848b52b12c221abc25c9292f281e70b8fd682ea3283dfde8f80061028c769606fa64bf48f6743dfd",
+          "sha256": "026ab17013d510c78ff9acc2dfaee0f71319da819cd4527d33d22b11f8baeaf0",
+          "sha1": "d83f2589e14cde3a7c302b4ab5700d3c738ab068",
+          "md5": "262c195a7c819ec37dd3397c937d9e86"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-iosarm64/0.12.0/theming-iosarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-iosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-iosarm64/0.12.0/theming-iosarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-iosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-iosarm64/0.12.0/theming-iosarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-iosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-iossimulatorarm64/0.12.0/theming-iossimulatorarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-iossimulatorarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-iossimulatorarm64/0.12.0/theming-iossimulatorarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-iossimulatorarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-iossimulatorarm64/0.12.0/theming-iossimulatorarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-iossimulatorarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../theming-jvm/0.12.0/theming-jvm-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-jvm",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../theming-jvm/0.12.0/theming-jvm-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-jvm",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../theming-jvm/0.12.0/theming-jvm-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-jvm",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-macosarm64/0.12.0/theming-macosarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-macosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-macosarm64/0.12.0/theming-macosarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-macosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../theming-macosarm64/0.12.0/theming-macosarm64-0.12.0.module",
+        "group": "dev.modaal.duet.services",
+        "module": "theming-macosarm64",
+        "version": "0.12.0"
+      }
+    }
+  ]
+}
